@@ -1,0 +1,16 @@
+{
+  "name": "npm-ripe-guard",
+  "version": "1.0.0",
+  "description": "Local npm registry proxy that blocks packages published less than 24 hours ago",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fastify": "^5.8.4"
+  }
+}
