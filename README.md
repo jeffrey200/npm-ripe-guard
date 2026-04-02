@@ -15,6 +15,10 @@ Many supply-chain attacks exploit the brief window right after a malicious packa
 
 ```yaml
 steps:
+  - uses: actions/setup-node@v4
+    with:
+      node-version: 24.x
+
   - uses: your-org/npm-ripe-guard@v1
 
   - name: Install dependencies
@@ -23,6 +27,8 @@ steps:
 
 That's it. The action starts the proxy in the background and sets `NPM_CONFIG_REGISTRY` for every subsequent step.
 It also sets `min-release-age=1`, so npm prefers older matching releases before the proxy-level hard block is applied.
+
+`min-release-age` requires npm `>= 11.10.0`. If your workflow runs an older npm, the action fails with a clear error and setup hint.
 
 **Custom port:**
 

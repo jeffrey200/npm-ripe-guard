@@ -29,6 +29,11 @@ runs:
           sleep 1
         done
 
+        if ! npm config ls -l | grep -q '^min-release-age'; then
+          echo "::error::npm-ripe-guard requires npm >= 11.10.0 to use 'min-release-age'. Current npm: $(npm -v)"
+          exit 1
+        fi
+
         echo "NPM_CONFIG_REGISTRY=http://localhost:${PORT}" >> "$GITHUB_ENV"
         npm config set min-release-age 1
         echo "NPM_CONFIG_MIN_RELEASE_AGE=1" >> "$GITHUB_ENV"
