@@ -1474,9 +1474,9 @@ var require_boot = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/symbols.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/symbols.js
 var require_symbols2 = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/symbols.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/symbols.js"(exports2, module2) {
     "use strict";
     var keys = {
       kAvvioBoot: Symbol("fastify.avvioBoot"),
@@ -1607,9 +1607,9 @@ var require_process_warning = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/warnings.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/warnings.js
 var require_warnings = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/warnings.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/warnings.js"(exports2, module2) {
     "use strict";
     var { createWarning } = require_process_warning();
     var FSTWRN001 = createWarning({
@@ -1652,9 +1652,9 @@ var require_warnings = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/errors.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/errors.js
 var require_errors2 = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/errors.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/errors.js"(exports2, module2) {
     "use strict";
     var createError = require_error();
     var codes = {
@@ -2152,9 +2152,9 @@ var require_errors2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/hooks.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/hooks.js
 var require_hooks = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/hooks.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/hooks.js"(exports2, module2) {
     "use strict";
     var applicationHooks = [
       "onRoute",
@@ -2513,9 +2513,9 @@ var require_hooks = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/noop-set.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/noop-set.js
 var require_noop_set = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/noop-set.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/noop-set.js"(exports2, module2) {
     "use strict";
     module2.exports = function noopSet() {
       return {
@@ -2533,9 +2533,9 @@ var require_noop_set = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/promise.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/promise.js
 var require_promise = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/promise.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/promise.js"(exports2, module2) {
     "use strict";
     var { kTestInternals } = require_symbols2();
     function withResolvers() {
@@ -2557,9 +2557,9 @@ var require_promise = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/server.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/server.js
 var require_server = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/server.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/server.js"(exports2, module2) {
     "use strict";
     var http = require("node:http");
     var https = require("node:https");
@@ -2885,9 +2885,9 @@ var require_server = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/content-type.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/content-type.js
 var require_content_type = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/content-type.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/content-type.js"(exports2, module2) {
     "use strict";
     var keyValuePairsReg = /(?:^|;)\s*([\w!#$%&'*+.^`|~-]+)=([^;]*)/gm;
     var typeNameReg = /^[\w!#$%&'*+.^`|~-]+$/;
@@ -2991,9 +2991,9 @@ var require_content_type = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/error-status.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/error-status.js
 var require_error_status = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/error-status.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/error-status.js"(exports2, module2) {
     "use strict";
     var {
       kReplyHasStatusCode
@@ -3008,9 +3008,9 @@ var require_error_status = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/wrap-thenable.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/wrap-thenable.js
 var require_wrap_thenable = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/wrap-thenable.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/wrap-thenable.js"(exports2, module2) {
     "use strict";
     var {
       kReplyIsError,
@@ -3071,9 +3071,9 @@ var require_wrap_thenable = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/validation.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/validation.js
 var require_validation = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/validation.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/validation.js"(exports2, module2) {
     "use strict";
     var {
       kSchemaHeaders: headersSchema,
@@ -3299,7 +3299,7 @@ var require_validation = __commonJS({
     }
     function getEssenceMediaType(header) {
       if (!header) return "";
-      return header.split(/[ ;]/, 1)[0].trim().toLowerCase();
+      return header.trimStart().split(/[ ;]/, 1)[0].trim().toLowerCase();
     }
     module2.exports = {
       symbols: { bodySchema, querystringSchema, responseSchema, paramsSchema, headersSchema },
@@ -3310,9 +3310,9 @@ var require_validation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/handle-request.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/handle-request.js
 var require_handle_request = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/handle-request.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/handle-request.js"(exports2, module2) {
     "use strict";
     var diagnostics = require("node:diagnostics_channel");
     var ContentType = require_content_type();
@@ -7880,9 +7880,9 @@ var require_pino = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/logger-pino.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/logger-pino.js
 var require_logger_pino = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/logger-pino.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/logger-pino.js"(exports2, module2) {
     "use strict";
     var pino = require_pino();
     var { serializersSym } = pino.symbols;
@@ -7938,9 +7938,9 @@ var require_logger_pino = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/logger-factory.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/logger-factory.js
 var require_logger_factory = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/logger-factory.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/logger-factory.js"(exports2, module2) {
     "use strict";
     var {
       FST_ERR_LOG_LOGGER_AND_LOGGER_INSTANCE_PROVIDED,
@@ -8216,9 +8216,9 @@ var require_rfdc = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/schemas.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/schemas.js
 var require_schemas = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/schemas.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/schemas.js"(exports2, module2) {
     "use strict";
     var fastClone = require_rfdc()({ circles: false, proto: true });
     var { kSchemaVisited, kSchemaResponse } = require_symbols2();
@@ -8494,9 +8494,9 @@ var require_serializer = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/error-serializer.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/error-serializer.js
 var require_error_serializer = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/error-serializer.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/error-serializer.js"(exports2, module2) {
     "use strict";
     var Serializer = require_serializer();
     var serializerState = { "mode": "standalone" };
@@ -8598,9 +8598,9 @@ var require_error_serializer = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/error-handler.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/error-handler.js
 var require_error_handler = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/error-handler.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/error-handler.js"(exports2, module2) {
     "use strict";
     var statusCodes = require("node:http").STATUS_CODES;
     var wrapThenable = require_wrap_thenable();
@@ -8752,9 +8752,9 @@ var require_error_handler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/decorate.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/decorate.js
 var require_decorate = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/decorate.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/decorate.js"(exports2, module2) {
     "use strict";
     var {
       kReply,
@@ -8885,9 +8885,9 @@ var require_decorate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/reply.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/reply.js
 var require_reply = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/reply.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/reply.js"(exports2, module2) {
     "use strict";
     var eos = require("node:stream").finished;
     var {
@@ -10689,9 +10689,9 @@ var require_proxy_addr = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/request.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/request.js
 var require_request = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/request.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/request.js"(exports2, module2) {
     "use strict";
     var proxyAddr = require_proxy_addr();
     var {
@@ -10738,20 +10738,14 @@ var require_request = __commonJS({
       }
       if (typeof tp === "number") {
         return function(a, i) {
-          return a != null && i < tp;
+          return i < tp;
         };
       }
       if (typeof tp === "string") {
         const values = tp.split(",").map((it) => it.trim());
-        const trust2 = proxyAddr.compile(values);
-        return function(a, i) {
-          return a != null && trust2(a, i);
-        };
+        return proxyAddr.compile(values);
       }
-      const trust = proxyAddr.compile(tp);
-      return function(a, i) {
-        return a != null && trust(a, i);
-      };
+      return proxyAddr.compile(tp);
     }
     function buildRequest(R, trustProxy) {
       if (trustProxy) {
@@ -10803,7 +10797,8 @@ var require_request = __commonJS({
         },
         host: {
           get() {
-            if (this.headers["x-forwarded-host"] && proxyFn(this.raw.socket?.remoteAddress, 0)) {
+            const socketAddr = this.raw.socket?.remoteAddress;
+            if (this.headers["x-forwarded-host"] && socketAddr !== null && proxyFn(socketAddr, 0)) {
               return getLastEntryInMultiHeaderValue(this.headers["x-forwarded-host"]);
             }
             return this.headers.host ?? this.headers[":authority"] ?? "";
@@ -10811,7 +10806,8 @@ var require_request = __commonJS({
         },
         protocol: {
           get() {
-            if (this.headers["x-forwarded-proto"] && proxyFn(this.raw.socket?.remoteAddress, 0)) {
+            const socketAddr = this.raw.socket?.remoteAddress;
+            if (this.headers["x-forwarded-proto"] && socketAddr !== null && proxyFn(socketAddr, 0)) {
               return getLastEntryInMultiHeaderValue(this.headers["x-forwarded-proto"]);
             }
             if (this.socket) {
@@ -10920,16 +10916,13 @@ var require_request = __commonJS({
       },
       port: {
         get() {
-          const portFromHost = parseInt(this.host.split(":").slice(-1)[0]);
-          if (!isNaN(portFromHost)) {
-            return portFromHost;
-          }
+          const portReg = /(?<port>:\d+)$/;
           const host = this.headers.host ?? this.headers[":authority"] ?? "";
-          const portFromHeader = parseInt(host.split(":").slice(-1)[0]);
-          if (!isNaN(portFromHeader)) {
-            return portFromHeader;
+          const matches = portReg.exec(host);
+          if (matches === null || matches[1] === void 0) {
+            return null;
           }
-          return null;
+          return parseInt(matches.groups.port.slice(1), 10);
         }
       },
       protocol: {
@@ -11025,9 +11018,9 @@ var require_request = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/context.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/context.js
 var require_context = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/context.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/context.js"(exports2, module2) {
     "use strict";
     var {
       kFourOhFourContext,
@@ -11904,9 +11897,9 @@ var require_secure_json_parse = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/content-type-parser.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/content-type-parser.js
 var require_content_type_parser = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/content-type-parser.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/content-type-parser.js"(exports2, module2) {
     "use strict";
     var { AsyncResource } = require("node:async_hooks");
     var { FifoMap: Fifo } = require_toad_cache();
@@ -15320,12 +15313,15 @@ var require_data = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/utils.js
+// node_modules/.pnpm/fast-uri@3.1.2/node_modules/fast-uri/lib/utils.js
 var require_utils = __commonJS({
-  "node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/utils.js"(exports2, module2) {
+  "node_modules/.pnpm/fast-uri@3.1.2/node_modules/fast-uri/lib/utils.js"(exports2, module2) {
     "use strict";
     var isUUID = RegExp.prototype.test.bind(/^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/iu);
     var isIPv4 = RegExp.prototype.test.bind(/^(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)$/u);
+    var isHexPair = RegExp.prototype.test.bind(/^[\da-f]{2}$/iu);
+    var isUnreserved = RegExp.prototype.test.bind(/^[\da-z\-._~]$/iu);
+    var isPathCharacter = RegExp.prototype.test.bind(/^[\da-z\-._~!$&'()*+,;=:@/]$/iu);
     function stringArrayToHexStripped(input) {
       let acc = "";
       let code = 0;
@@ -15518,27 +15514,77 @@ var require_utils = __commonJS({
       }
       return output.join("");
     }
-    function normalizeComponentEncoding(component, esc) {
-      const func = esc !== true ? escape : unescape;
-      if (component.scheme !== void 0) {
-        component.scheme = func(component.scheme);
+    var HOST_DELIMS = { "@": "%40", "/": "%2F", "?": "%3F", "#": "%23", ":": "%3A" };
+    var HOST_DELIM_RE = /[@/?#:]/g;
+    var HOST_DELIM_NO_COLON_RE = /[@/?#]/g;
+    function reescapeHostDelimiters(host, isIP) {
+      const re = isIP ? HOST_DELIM_NO_COLON_RE : HOST_DELIM_RE;
+      re.lastIndex = 0;
+      return host.replace(re, (ch) => HOST_DELIMS[ch]);
+    }
+    function normalizePercentEncoding(input, decodeUnreserved = false) {
+      if (input.indexOf("%") === -1) {
+        return input;
       }
-      if (component.userinfo !== void 0) {
-        component.userinfo = func(component.userinfo);
+      let output = "";
+      for (let i = 0; i < input.length; i++) {
+        if (input[i] === "%" && i + 2 < input.length) {
+          const hex = input.slice(i + 1, i + 3);
+          if (isHexPair(hex)) {
+            const normalizedHex = hex.toUpperCase();
+            const decoded = String.fromCharCode(parseInt(normalizedHex, 16));
+            if (decodeUnreserved && isUnreserved(decoded)) {
+              output += decoded;
+            } else {
+              output += "%" + normalizedHex;
+            }
+            i += 2;
+            continue;
+          }
+        }
+        output += input[i];
       }
-      if (component.host !== void 0) {
-        component.host = func(component.host);
+      return output;
+    }
+    function normalizePathEncoding(input) {
+      let output = "";
+      for (let i = 0; i < input.length; i++) {
+        if (input[i] === "%" && i + 2 < input.length) {
+          const hex = input.slice(i + 1, i + 3);
+          if (isHexPair(hex)) {
+            const normalizedHex = hex.toUpperCase();
+            const decoded = String.fromCharCode(parseInt(normalizedHex, 16));
+            if (decoded !== "." && isUnreserved(decoded)) {
+              output += decoded;
+            } else {
+              output += "%" + normalizedHex;
+            }
+            i += 2;
+            continue;
+          }
+        }
+        if (isPathCharacter(input[i])) {
+          output += input[i];
+        } else {
+          output += escape(input[i]);
+        }
       }
-      if (component.path !== void 0) {
-        component.path = func(component.path);
+      return output;
+    }
+    function escapePreservingEscapes(input) {
+      let output = "";
+      for (let i = 0; i < input.length; i++) {
+        if (input[i] === "%" && i + 2 < input.length) {
+          const hex = input.slice(i + 1, i + 3);
+          if (isHexPair(hex)) {
+            output += "%" + hex.toUpperCase();
+            i += 2;
+            continue;
+          }
+        }
+        output += escape(input[i]);
       }
-      if (component.query !== void 0) {
-        component.query = func(component.query);
-      }
-      if (component.fragment !== void 0) {
-        component.fragment = func(component.fragment);
-      }
-      return component;
+      return output;
     }
     function recomposeAuthority(component) {
       const uriTokens = [];
@@ -15553,7 +15599,7 @@ var require_utils = __commonJS({
           if (ipV6res.isIPV6 === true) {
             host = `[${ipV6res.escapedHost}]`;
           } else {
-            host = component.host;
+            host = reescapeHostDelimiters(host, false);
           }
         }
         uriTokens.push(host);
@@ -15567,7 +15613,10 @@ var require_utils = __commonJS({
     module2.exports = {
       nonSimpleDomain,
       recomposeAuthority,
-      normalizeComponentEncoding,
+      reescapeHostDelimiters,
+      normalizePercentEncoding,
+      normalizePathEncoding,
+      escapePreservingEscapes,
       removeDotSegments,
       isIPv4,
       isUUID,
@@ -15577,9 +15626,9 @@ var require_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/schemes.js
+// node_modules/.pnpm/fast-uri@3.1.2/node_modules/fast-uri/lib/schemes.js
 var require_schemes = __commonJS({
-  "node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/schemes.js"(exports2, module2) {
+  "node_modules/.pnpm/fast-uri@3.1.2/node_modules/fast-uri/lib/schemes.js"(exports2, module2) {
     "use strict";
     var { isUUID } = require_utils();
     var URN_REG = /([\da-z][\d\-a-z]{0,31}):((?:[\w!$'()*+,\-.:;=@]|%[\da-f]{2})+)/iu;
@@ -15787,16 +15836,16 @@ var require_schemes = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/index.js
+// node_modules/.pnpm/fast-uri@3.1.2/node_modules/fast-uri/index.js
 var require_fast_uri = __commonJS({
-  "node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/index.js"(exports2, module2) {
+  "node_modules/.pnpm/fast-uri@3.1.2/node_modules/fast-uri/index.js"(exports2, module2) {
     "use strict";
-    var { normalizeIPv6, removeDotSegments, recomposeAuthority, normalizeComponentEncoding, isIPv4, nonSimpleDomain } = require_utils();
+    var { normalizeIPv6, removeDotSegments, recomposeAuthority, normalizePercentEncoding, normalizePathEncoding, escapePreservingEscapes, reescapeHostDelimiters, isIPv4, nonSimpleDomain } = require_utils();
     var { SCHEMES, getSchemeHandler } = require_schemes();
     function normalize(uri, options) {
       if (typeof uri === "string") {
         uri = /** @type {T} */
-        serialize(parse(uri, options), options);
+        normalizeString(uri, options);
       } else if (typeof uri === "object") {
         uri = /** @type {T} */
         parse(serialize(uri, options), options);
@@ -15863,19 +15912,9 @@ var require_fast_uri = __commonJS({
       return target;
     }
     function equal(uriA, uriB, options) {
-      if (typeof uriA === "string") {
-        uriA = unescape(uriA);
-        uriA = serialize(normalizeComponentEncoding(parse(uriA, options), true), { ...options, skipEscape: true });
-      } else if (typeof uriA === "object") {
-        uriA = serialize(normalizeComponentEncoding(uriA, true), { ...options, skipEscape: true });
-      }
-      if (typeof uriB === "string") {
-        uriB = unescape(uriB);
-        uriB = serialize(normalizeComponentEncoding(parse(uriB, options), true), { ...options, skipEscape: true });
-      } else if (typeof uriB === "object") {
-        uriB = serialize(normalizeComponentEncoding(uriB, true), { ...options, skipEscape: true });
-      }
-      return uriA.toLowerCase() === uriB.toLowerCase();
+      const normalizedA = normalizeComparableURI(uriA, options);
+      const normalizedB = normalizeComparableURI(uriB, options);
+      return normalizedA !== void 0 && normalizedB !== void 0 && normalizedA.toLowerCase() === normalizedB.toLowerCase();
     }
     function serialize(cmpts, opts) {
       const component = {
@@ -15900,12 +15939,12 @@ var require_fast_uri = __commonJS({
       if (schemeHandler && schemeHandler.serialize) schemeHandler.serialize(component, options);
       if (component.path !== void 0) {
         if (!options.skipEscape) {
-          component.path = escape(component.path);
+          component.path = escapePreservingEscapes(component.path);
           if (component.scheme !== void 0) {
             component.path = component.path.split("%3A").join(":");
           }
         } else {
-          component.path = unescape(component.path);
+          component.path = normalizePercentEncoding(component.path);
         }
       }
       if (options.reference !== "suffix" && component.scheme) {
@@ -15940,7 +15979,16 @@ var require_fast_uri = __commonJS({
       return uriTokens.join("");
     }
     var URI_PARSE = /^(?:([^#/:?]+):)?(?:\/\/((?:([^#/?@]*)@)?(\[[^#/?\]]+\]|[^#/:?]*)(?::(\d*))?))?([^#?]*)(?:\?([^#]*))?(?:#((?:.|[\n\r])*))?/u;
-    function parse(uri, opts) {
+    function getParseError(parsed, matches) {
+      if (matches[2] !== void 0 && parsed.path && parsed.path[0] !== "/") {
+        return 'URI path must start with "/" when authority is present.';
+      }
+      if (typeof parsed.port === "number" && (parsed.port < 0 || parsed.port > 65535)) {
+        return "URI port is malformed.";
+      }
+      return void 0;
+    }
+    function parseWithStatus(uri, opts) {
       const options = Object.assign({}, opts);
       const parsed = {
         scheme: void 0,
@@ -15951,6 +15999,7 @@ var require_fast_uri = __commonJS({
         query: void 0,
         fragment: void 0
       };
+      let malformedAuthorityOrPort = false;
       let isIP = false;
       if (options.reference === "suffix") {
         if (options.scheme) {
@@ -15970,6 +16019,11 @@ var require_fast_uri = __commonJS({
         parsed.fragment = matches[8];
         if (isNaN(parsed.port)) {
           parsed.port = matches[5];
+        }
+        const parseError = getParseError(parsed, matches);
+        if (parseError !== void 0) {
+          parsed.error = parsed.error || parseError;
+          malformedAuthorityOrPort = true;
         }
         if (parsed.host) {
           const ipv4result = isIPv4(parsed.host);
@@ -16009,14 +16063,18 @@ var require_fast_uri = __commonJS({
               parsed.scheme = unescape(parsed.scheme);
             }
             if (parsed.host !== void 0) {
-              parsed.host = unescape(parsed.host);
+              parsed.host = reescapeHostDelimiters(unescape(parsed.host), isIP);
             }
           }
           if (parsed.path) {
-            parsed.path = escape(unescape(parsed.path));
+            parsed.path = normalizePathEncoding(parsed.path);
           }
           if (parsed.fragment) {
-            parsed.fragment = encodeURI(decodeURIComponent(parsed.fragment));
+            try {
+              parsed.fragment = encodeURI(decodeURIComponent(parsed.fragment));
+            } catch {
+              parsed.error = parsed.error || "URI malformed";
+            }
           }
         }
         if (schemeHandler && schemeHandler.parse) {
@@ -16025,7 +16083,29 @@ var require_fast_uri = __commonJS({
       } else {
         parsed.error = parsed.error || "URI can not be parsed.";
       }
-      return parsed;
+      return { parsed, malformedAuthorityOrPort };
+    }
+    function parse(uri, opts) {
+      return parseWithStatus(uri, opts).parsed;
+    }
+    function normalizeString(uri, opts) {
+      return normalizeStringWithStatus(uri, opts).normalized;
+    }
+    function normalizeStringWithStatus(uri, opts) {
+      const { parsed, malformedAuthorityOrPort } = parseWithStatus(uri, opts);
+      return {
+        normalized: malformedAuthorityOrPort ? uri : serialize(parsed, opts),
+        malformedAuthorityOrPort
+      };
+    }
+    function normalizeComparableURI(uri, opts) {
+      if (typeof uri === "string") {
+        const { normalized, malformedAuthorityOrPort } = normalizeStringWithStatus(uri, opts);
+        return malformedAuthorityOrPort ? void 0 : normalized;
+      }
+      if (typeof uri === "object") {
+        return serialize(uri, opts);
+      }
     }
     var fastUri = {
       SCHEMES,
@@ -24134,9 +24214,9 @@ var require_fast_json_stringify_compiler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/schema-controller.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/schema-controller.js
 var require_schema_controller = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/schema-controller.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/schema-controller.js"(exports2, module2) {
     "use strict";
     var { buildSchemas } = require_schemas();
     function buildSchemaController(parentSchemaCtrl, opts) {
@@ -26182,9 +26262,9 @@ var require_semver2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/plugin-utils.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/plugin-utils.js
 var require_plugin_utils = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/plugin-utils.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/plugin-utils.js"(exports2, module2) {
     "use strict";
     var semver = require_semver2();
     var assert = require("node:assert");
@@ -26316,9 +26396,9 @@ var require_plugin_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/req-id-gen-factory.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/req-id-gen-factory.js
 var require_req_id_gen_factory = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/req-id-gen-factory.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/req-id-gen-factory.js"(exports2, module2) {
     "use strict";
     function reqIdGenFactory(requestIdHeader, optGenReqId) {
       const genReqId = optGenReqId || buildDefaultGenReqId();
@@ -29443,9 +29523,9 @@ var require_find_my_way = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/head-route.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/head-route.js
 var require_head_route = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/head-route.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/head-route.js"(exports2, module2) {
     "use strict";
     function headRouteOnSendHandler(req, reply, payload, done) {
       if (payload === void 0) {
@@ -29482,9 +29562,9 @@ var require_head_route = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/route.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/route.js
 var require_route = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/route.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/route.js"(exports2, module2) {
     "use strict";
     var FindMyWay = require_find_my_way();
     var Context = require_context();
@@ -30029,9 +30109,9 @@ var require_route = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/four-oh-four.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/four-oh-four.js
 var require_four_oh_four = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/four-oh-four.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/four-oh-four.js"(exports2, module2) {
     "use strict";
     var FindMyWay = require_find_my_way();
     var Reply = require_reply();
@@ -30176,9 +30256,9 @@ var require_four_oh_four = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/config-validator.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/config-validator.js
 var require_config_validator = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/config-validator.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/config-validator.js"(exports2, module2) {
     "use strict";
     module2.exports = validate10;
     module2.exports.default = validate10;
@@ -31339,9 +31419,9 @@ var require_config_validator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/initial-config-validation.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/initial-config-validation.js
 var require_initial_config_validation = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/initial-config-validation.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/initial-config-validation.js"(exports2, module2) {
     "use strict";
     var validate = require_config_validator();
     var deepClone = require_rfdc()({ circles: true, proto: false });
@@ -31372,9 +31452,9 @@ var require_initial_config_validation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/plugin-override.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/plugin-override.js
 var require_plugin_override = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/lib/plugin-override.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/lib/plugin-override.js"(exports2, module2) {
     "use strict";
     var {
       kAvvioBoot,
@@ -33398,11 +33478,11 @@ var require_light_my_request = __commonJS({
   }
 });
 
-// node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/fastify.js
+// node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/fastify.js
 var require_fastify = __commonJS({
-  "node_modules/.pnpm/fastify@5.8.4/node_modules/fastify/fastify.js"(exports2, module2) {
+  "node_modules/.pnpm/fastify@5.8.5/node_modules/fastify/fastify.js"(exports2, module2) {
     "use strict";
-    var VERSION = "5.8.4";
+    var VERSION = "5.8.5";
     var Avvio = require_boot();
     var http = require("node:http");
     var diagnostics = require("node:diagnostics_channel");
